@@ -6,7 +6,7 @@
 /*   By: rvan-aud <rvan-aud@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/13 13:54:43 by rvan-aud          #+#    #+#             */
-/*   Updated: 2022/01/13 15:04:45 by rvan-aud         ###   ########.fr       */
+/*   Updated: 2022/01/13 18:09:24 by rvan-aud         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ class	Array
 		{
 			this->_size = src._size;
 			this->_array = new T[this->_size];
-			for (int i = 0; i < this->_size; i++)
+			for (unsigned int i = 0; i < this->_size; i++)
 				this->_array[i] = src._array[i];
 		}
 		~Array(void)
@@ -46,7 +46,7 @@ class	Array
 			this->~Array();
 			this->_size = rhs._size;
 			this->_array = new T[this->_size];
-			for (int i = 0; i < this->_size; i++)
+			for (unsigned int i = 0; i < this->_size; i++)
 				this->_array[i] = rhs._array[i];
 			return (*this);
 		}
