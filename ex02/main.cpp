@@ -6,7 +6,7 @@
 /*   By: rvan-aud <rvan-aud@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/13 13:54:41 by rvan-aud          #+#    #+#             */
-/*   Updated: 2022/01/13 18:21:16 by rvan-aud         ###   ########.fr       */
+/*   Updated: 2022/01/15 15:56:58 by rvan-aud         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 int	main(void)
 {
+	Array<double>	default_arr;
+	
 	std::cout << "*** Int tests ***" << std::endl << std::endl;
 
 	Array<int>	i_arr(5);

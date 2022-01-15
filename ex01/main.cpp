@@ -6,7 +6,7 @@
 /*   By: rvan-aud <rvan-aud@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/13 13:18:00 by rvan-aud          #+#    #+#             */
-/*   Updated: 2022/01/13 13:50:38 by rvan-aud         ###   ########.fr       */
+/*   Updated: 2022/01/15 15:54:49 by rvan-aud         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int	main(void)
 
 	iter<int>(i_arr, 7, ft);
 	std::cout << std::endl;
-	iter<std::string>(s_arr, 3, ::print);
+	iter<std::string>(s_arr, 3, ::print_T);
 	std::cout << std::endl;
-	iter<float>(f_arr, 5, ::print);
+	iter<float>(f_arr, 5, ::print_T);
 }
